@@ -1,0 +1,21 @@
+p {
+	background-color: #ff938f;
+	font-size: 15px;
+	font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cooler {
+	font-size: 28px
+}
+
+#blue {
+	font-family: "Times New Roman", serif;
+	color: #0356fc;
+	font-size: 30px;
+}
+
+#another {
+	background-color: #61fa50;
+	font-width: 700;
+	font-size: 24px;
+}
