@@ -13,6 +13,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+}
+
+.text {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.header {
+  font-size: large;
 }
 
 .modal {
@@ -20,6 +30,25 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em;
+  display: flex;
+}
+
+.modal-center {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.continue, .cancel {
+  max-width: 150px;
 }
 
 .icon {
